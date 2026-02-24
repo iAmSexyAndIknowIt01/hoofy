@@ -1,7 +1,7 @@
 import "./globals.css"
 import { Providers } from "./providers"
 import { LanguageProvider } from "./language-provider"
-import { ThemeProvider } from "./theme-provider"
+
 
 export default function RootLayout({
   children,

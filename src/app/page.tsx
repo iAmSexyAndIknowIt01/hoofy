@@ -56,7 +56,7 @@ export default function Home() {
           {/* Right side */}
           <div className="hidden md:flex items-center gap-3">
             <LanguageToggle />
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <button onClick={handleJoin} className="rounded-xl bg-orange-500 px-4 py-2 text-black font-semibold hover:opacity-90">
               {t.join}
             </button>
