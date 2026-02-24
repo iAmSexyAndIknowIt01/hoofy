@@ -12,7 +12,7 @@ export function EventsSection() {
         {dummyEvents.map((event) => (
           <div
             key={event.id}
-            className="rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-800 p-6 border border-white/10 hover:border-orange-500 transition"
+            className="rounded-2xl bg-linear-to-br from-neutral-900 to-neutral-800 p-6 border border-white/10 hover:border-orange-500 transition"
           >
             <h3 className="text-xl font-semibold text-orange-500">
               {event.title}
